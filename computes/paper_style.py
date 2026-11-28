@@ -5,15 +5,6 @@ One style for every figure of full_v5. It holds constants and three small
 helpers only, so each plot script stays flat and every axis is still placed by
 its own GridSpec.
 
-Rules it encodes
-  colours are named colours and never hex codes
-  every line carries a line style as well as a colour
-  classes and windows carry a hatch as well as a colour
-  colour maps are perceptually uniform and safe for colour vision deficiency
-  a colourbar extends only towards the side the data pass its limits (a field
-  that starts at zero extends at most to the maximum, a field inside its
-  limits does not extend)
-  no commas inside figure text
 """
 
 import matplotlib as mpl
