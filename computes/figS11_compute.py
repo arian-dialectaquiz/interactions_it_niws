@@ -47,12 +47,6 @@ Inputs
 Outputs (in ./figS11_out/)
   figS11_phase_parts.nc   figS11_blocks.csv   figS11_phase_parts_report.txt
 
-Nothing is extracted from the model. About the time of fig_04_compute.py.
-
-  cd ~/dd_waves/paper_3/full_v5
-  nohup python -u figS11_compute.py > log_figS11_compute.txt 2>&1 &
-  tail -f log_figS11_compute.txt
-  cat figS11_out/figS11_phase_parts_report.txt
 """
 
 import os
