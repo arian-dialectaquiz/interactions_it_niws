@@ -40,12 +40,6 @@ Inputs
 Outputs (in ./figS10_out/)
   figS10_tide_parts.nc   figS10_tide_parts_report.txt
 
-Nothing is extracted from the model. About the time of fig_03_compute.py.
-
-  cd ~/dd_waves/paper_3/full_v5
-  nohup python -u figS10_compute.py > log_figS10_compute.txt 2>&1 &
-  tail -f log_figS10_compute.txt
-  cat figS10_out/figS10_tide_parts_report.txt
 """
 
 import os
