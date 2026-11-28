@@ -17,19 +17,6 @@ of it is a point of the slab cache and the 3 km fields are reproduced exactly.
 The reading follows fig_06_extract.py: one read of each record, u and v taken
 at the index of the rho point, w averaged to the rho levels.
 
-Revision 2. An experiment may be held in several history files (TIDE is now
-avg_TIDES_ONLY_V2_part1 to part3). The records of the slab cache are looked up
-across the parts by their time on the nearest hour, and a record that two parts
-share is taken from the first. At the end every third point of the new cache is
-compared with the slab cache of the same experiment. A difference of zero says
-the history files are the output the caches of the paper were made from. For
-TIDE this is the test that the V2 files reproduce the run of the paper, which
-the wake (FULL minus TIDE) needs.
-
-  cd ~/dd_waves/paper_3/full_v5
-  nohup python -u figS9_extract.py FULL > log_figS9_extract_FULL.txt 2>&1 &
-  nohup python -u figS9_extract.py TIDE > log_figS9_extract_TIDE.txt 2>&1 &
-  tail -f log_figS9_extract_FULL.txt
 
 Each run costs one pass over the records of its history file, about the time
 fig_06_extract.py took for one experiment. A cache that is already complete is
