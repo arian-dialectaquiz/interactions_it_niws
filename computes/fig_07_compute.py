@@ -43,8 +43,6 @@ Inputs
 
 Outputs (in OUTDIR)
   fig7_fate.nc  fig7_blocks.csv  fig7_fate_report.txt
-
-Run under nohup. Pass 1 is the cost of Figure 6, pass 2 is minutes.
 """
 
 import os
