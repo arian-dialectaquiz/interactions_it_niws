@@ -35,13 +35,6 @@ Tests (FULL in the wake window, the flow that defines the classes)
     (the sign of the detuning) changes when the exact frequency is used
   the same without the Gaussian, as an upper bound
 
-Inputs
-  ../new_full/fig6_cache_<RUN>/     u and v on the 3 km slope tiles, four runs
-  ./fig2_out/fig2_wake.nc           geometry, windows, classes (dc_FULL)
-  the history file of FULL          grid metrics only
-
-Outputs (in OUTDIR)
-  figS8_strain.nc  figS8_blocks.csv  figS8_strain_report.txt
 
 """
 
