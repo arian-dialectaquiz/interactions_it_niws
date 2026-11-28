@@ -21,8 +21,7 @@ with the same bands, windows, filters and definitions,
 
 Output  ./region_out/region_maps.nc
 
-Run under nohup. Row bands of the region grid, CHUNK_Z levels at a time, about
-the cost of one Figure 4 compute.
+
 """
 
 import os
