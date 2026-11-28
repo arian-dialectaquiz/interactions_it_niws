@@ -43,11 +43,6 @@ Inputs
 Outputs (in OUTDIR)
   figS8_strain.nc  figS8_blocks.csv  figS8_strain_report.txt
 
-Run (a few minutes, it reads two variables of the slab caches once per window)
-
-  cd ~/dd_waves/paper_3/full_v5
-  nohup python -u figS8_compute.py > log_figS8.txt 2>&1 &
-  tail -f log_figS8.txt
 """
 
 import os
