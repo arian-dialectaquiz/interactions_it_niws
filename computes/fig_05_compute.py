@@ -40,7 +40,7 @@ Inputs
 Outputs (in OUTDIR)
   fig5_resonance.nc  fig5_blocks.csv  fig5_resonance_report.txt
 
-Runs in seconds (no pass over the slab caches).
+
 """
 
 import os
