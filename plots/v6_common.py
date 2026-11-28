@@ -9,8 +9,6 @@ the panel code it needs; this module only holds what would otherwise be
 repeated verbatim (paths, map frame, window shading, the smoothing of a map
 and the block-bootstrap mean of a map).
 
-Figure text carries no commas and no figurative names. Classes are named by
-the sign of the flow detuning only (below resonance and above resonance).
 """
 
 import sys
