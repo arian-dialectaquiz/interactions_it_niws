@@ -64,9 +64,6 @@ Inputs
 
 Outputs (in OUTDIR)
   fig3_strain.nc  fig3_blocks.csv  fig3_strain_report.txt
-
-Run under nohup. A short pre-pass for the storm-window vorticity, then one pass
-over the tiles, CHUNK_Z levels at a time.
 """
 
 import os
