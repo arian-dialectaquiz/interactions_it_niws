@@ -61,7 +61,6 @@ Inputs
 Outputs (in OUTDIR)
   fig4_phase.nc  fig4_blocks.csv  fig4_phase_report.txt
 
-Run under nohup. One pass over the tiles, CHUNK_Z levels at a time.
 """
 
 import os
