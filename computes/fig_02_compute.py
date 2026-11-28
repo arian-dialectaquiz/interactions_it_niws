@@ -54,9 +54,6 @@ Outputs (in OUTDIR)
   fig2_wake_table.csv   the group table, both bands
   fig2_wake_report.txt
 
-Run under nohup. The pre-pass that forms the detuning reads every cache once
-without filtering (about a minute a tile), the main pass filters CHUNK_Z levels
-at a time (about a minute a tile on Rio).
 """
 
 import os
