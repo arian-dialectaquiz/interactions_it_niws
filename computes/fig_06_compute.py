@@ -48,8 +48,6 @@ Inputs
 Outputs (in OUTDIR)
   fig6_budget.nc  fig6_blocks.csv  fig6_budget_report.txt
 
-Run under nohup. One pass over the tiles, CHUNK_Z levels at a time, no
-derivatives and no vertical velocity, so lighter than Figure 3.
 """
 
 import os
