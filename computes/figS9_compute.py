@@ -56,12 +56,6 @@ Inputs
 Outputs (in OUTDIR)
   figS9_sampling.nc  figS9_sampling_report.txt
 
-Run under nohup. One pass over the levels, CHUNK_Z at a time, about twice the
-time of the first version.
-
-  cd ~/dd_waves/paper_3/full_v5
-  nohup python -u figS9_compute.py > log_figS9.txt 2>&1 &
-  tail -f log_figS9.txt
 """
 
 import os
