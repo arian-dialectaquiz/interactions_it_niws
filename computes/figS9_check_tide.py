@@ -1,23 +1,7 @@
 """
 figS9_check_tide.py  (full_v5)
 ------------------------------
-Why does the 1 km cache of TIDE (from avg_TIDES_ONLY_V2_part*.nc) differ from the
-slab cache of the paper (from the earlier avg_TIDES_ONLY_HC.nc)?
 
-Every third point of the 1 km cache is set against the slab cache of the same
-tile at every record and every level. Four things are told apart.
-
-  a shift in time     the fields agree at another lag, and the mean flow agrees
-  bad records         most records agree and a few do not (zeros, a part boundary)
-  a run that diverges the difference is small at the first records and grows
-  another realisation the difference is large from the first record and the mean
-                      flow of the window differs
-
-Reads ./figS9_cache_TIDE/ and ../new_full/fig6_cache_TIDE/. About one minute.
-
-  cd ~/dd_waves/paper_3/full_v5
-  python -u figS9_check_tide.py > log_figS9_check_tide.txt 2>&1
-  cat log_figS9_check_tide.txt
 """
 
 import glob
