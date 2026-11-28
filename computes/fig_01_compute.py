@@ -4,8 +4,6 @@ fig_01_compute.py  (full_v5)
 Figure 1. The margin, the storm, the tide and the distance from resonance, in
 space and in time, for the four experiments.
 
-What changed from the version of new_full
------------------------------------------
 1. The balanced vorticity is now geostrophic and time resolved. It is formed
    from the sea surface elevation, low passed at LP_HOURS and coarse-grained
    with the same Gaussian as before, at every STEP_H hours of all four
